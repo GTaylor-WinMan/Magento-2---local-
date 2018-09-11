@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Greg\Calc\Model\Example">
+        <plugin name="greg_calc_model_example_plugin"
+                type="Greg\Calc\Model\Example\Plugin" 
+                sortOrder="10"
+                disabled ="false"/> 
+    </type>
+</config>
